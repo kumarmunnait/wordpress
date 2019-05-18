@@ -1,0 +1,48 @@
+/*
+Theme Name: My Theme
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Author: MK Gupta
+Author URI: https://wordpress.org/
+Description: the powerMy Theme sdsakd. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: WordPress 4.9.6
+Version: 1.4
+*/
+
+body
+{
+text-align: left;
+}
+.heade-section-bg{
+	background-image: url(.../../images/top-page-image.jpg);
+	min-height: 300px;
+	width: 100%;
+}
+
+.pages p {
+    color: #666;
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+
+.pages h6 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+.pages h4, ..pages h4 {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.pages {
+    background: #f8f9fa;
+    padding: 2em;
+}
